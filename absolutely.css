@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body {
 	text-align : center;
 	font-family : Tahoma;
@@ -5,12 +9,171 @@ body {
 	background-color : black;
 	/* toe te voegen */
 }
+
 .all {
 	text-align : left;
 	width : 700px;
 	margin : 100px auto;
+	margin-top: 75px;
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
 }
 
+header {
+	background-image: url(bar1.png);
+	background-repeat: repeat-x;
+}
+
+header:hover {
+	background-image: url(bar2.png);
+	background-repeat: repeat-x;
+}
+
+header a {
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	bottom: 5px;
+}
+
+p {
+	margin: 0px 10px 0px 10px;
+}
+
+h1 {
+	margin: 10px 10px 0px 5px;
+	padding: 10px 5px 5px 5px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+ul {
+	display: none;
+	background-color: white;
+	padding: 0px;
+}
+
+ul li {
+	border: solid black;
+	border-width: 1px;
+	padding: 2px;
+	width: 100px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#toolbox:hover ul {
+	display: block;
+	list-style: none;
+	position: absolute;
+	top: 90px;
+	right: 155px;
+}
+ul li:hover {
+	background-color: navajowhite;
+}
+
+#humanfactor {
+	color: blue;
+}
+
+#humanfactor-span {
+	display: none;
+	border-style: solid blue;
+	border-width: 2px;
+}
+
+#humanfactor:hover #humanfactor-span {
+	position: absolute;
+	left: 1075px;
+	top: 570px;
+	display: inline;
+	background-color: white;
+	width: 200px;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid blue;
+	border-width: 2px
+}
+
+#content {
+	background-color: rgba(255,255,255,0.5);
+	margin-top: 370px;
+}
+
+
+	/*pictures*/
+
+		#title {
+			position: absolute;
+			top: 34px;
+			left: 461px;
+		}
+
+		#saw {
+			position: absolute;
+			top: 174px;
+			left: 391px;
+		}
+
+		#hammer {
+			position: absolute;
+			top: 34px;
+			left: 932px;
+		}
+
+		#pincers {
+			position: absolute;
+			top: 344px;
+			left: 1000px;
+		}
+
+		#screwdriver {
+			position: absolute;
+			top: 234px;
+			left: 985px;
+		}
+
+		#toolbox {
+			position: absolute;
+			top: 294px;
+			left: 661px;
+		}
+
+	/*pictures*/
+
+
+	/*picture hover*/
+
+	#saw:hover {
+		position: absolute;
+		top: 170px;
+		left: 391px;
+	}
+
+	#hammer:hover {
+		position: absolute;
+		top: 30px;
+		left: 932px;
+	}
+
+	#pincers:hover {
+		position: absolute;
+		top: 340px;
+		left: 1000px;
+	}
+
+	#screwdriver:hover {
+		position: absolute;
+		top: 230px;
+		left: 985px;
+	}
+
+/*picture hover*/
